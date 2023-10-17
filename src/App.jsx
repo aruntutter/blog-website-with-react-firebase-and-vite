@@ -6,10 +6,12 @@ import NoPage from "./pages/nopage/NoPage";
 import BlogInfo from "./pages/blogInfo/BlogInfo";
 import AdminLogin from "./pages/admin/adminLogin/AdminLogin";
 import Dashboard from "./pages/admin/dashboard/Dashboard";
+import MyState from "./context/data/myState";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div>
+    <MyState>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,8 +22,9 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/*" element={<NoPage />} />
         </Routes>
+        <Toaster />
       </Router>
-    </div>
+    </MyState>
   );
 }
 
