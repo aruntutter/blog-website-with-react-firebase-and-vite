@@ -92,7 +92,7 @@ export default function Nav() {
             <div className="hidden lg:block">{navList}</div>
 
             {/* Search Icon */}
-            <div>
+            <div className="cursor-pointer">
               {/* <AiOutlineSearch size={20} color="white" /> */}
               <SearchDialog />
             </div>
