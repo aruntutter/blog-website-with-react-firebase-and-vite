@@ -8,6 +8,7 @@ import AdminLogin from "./pages/admin/adminLogin/AdminLogin";
 import Dashboard from "./pages/admin/dashboard/Dashboard";
 import MyState from "./context/data/myState";
 import { Toaster } from "react-hot-toast";
+import CreateBlog from "./pages/admin/createBlog/CreateBlog";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/bloginfo/:id" element={<BlogInfo />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/createblog" element={<CreateBlog />} />
           <Route path="/*" element={<NoPage />} />
         </Routes>
         <Toaster />
