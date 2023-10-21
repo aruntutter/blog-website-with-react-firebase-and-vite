@@ -1,7 +1,24 @@
-import React from "react";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
+import { getStorage } from "firebase/storage";
 
-const FirebaseConfig = () => {
-  return <div>FirebaseConfig</div>;
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDIWSdM01LCj5ZRWHa7Ermbj6eQTKvFjl8",
+  authDomain: "dailyblog-d1e6c.firebaseapp.com",
+  projectId: "dailyblog-d1e6c",
+  storageBucket: "dailyblog-d1e6c.appspot.com",
+  messagingSenderId: "598431029836",
+  appId: "1:598431029836:web:945c792722cced999df2e9",
 };
 
-export default FirebaseConfig;
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+const fireDb = getFirestore(app);
+const auth = getAuth(app);
+const storage = getStorage(app);
+
+export { fireDb, auth, storage };
