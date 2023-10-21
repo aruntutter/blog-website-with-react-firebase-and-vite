@@ -3,6 +3,7 @@ import Layout from "../../../components/layout/Layout";
 import myContext from "../../../context/data/myContext";
 import { Button } from "@material-tailwind/react";
 import { Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Dashboard() {
   const context = useContext(myContext);
@@ -14,6 +15,11 @@ function Dashboard() {
     localStorage.clear("admin");
     navigate("/");
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Layout>
       <div className="py-10">

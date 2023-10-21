@@ -8,6 +8,7 @@ import { Timestamp, addDoc, collection } from "firebase/firestore";
 import toast from "react-hot-toast";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { fireDb, storage } from "../../../firebase/FirebaseConfig";
+import { useEffect } from "react";
 
 function CreateBlog() {
   const context = useContext(myContext);
@@ -66,6 +67,10 @@ function CreateBlog() {
       });
     });
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Create markup function
   function createMarkup(c) {
