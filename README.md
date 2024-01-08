@@ -1,4 +1,4 @@
-# Daily Blog - React Blog App
+# DailyBlog - React Blog App
 
 ## Table of Contents
 
@@ -14,20 +14,20 @@
 
 ## Links
 
-- Solution URL: [GitHub Repository]()
-- Live Demo: [Live Demo URL]()
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/blog-website-with-react-firebase-and-vite)
+- Live Demo: [Live Demo URL](https://blog-website-seven-weld.vercel.app/)
 
 ## Description
 
-Blogify is a blog website built using React, Tailwind CSS, and Firebase. It provides a platform for users to create, update, and read blog posts. The website also includes an admin login functionality for managing blog content.
+DailyBlog is a blog website built using React, Tailwind CSS, and Firebase. It provides a platform for users to create, update, and read blog posts. The website also includes an admin login functionality for managing blog content.
 
 ## Screenshot
 
-![Blogify Screenshot](screenshots/blogify-screenshot.png)
+![DailyBlog Screenshot](screenshots/DailyBlog-screenshot.png)
 
 ## Demo
 
-Check out the live demo of Blogify: [Live Demo URL](https://blog-website-seven-weld.vercel.app/)
+Check out the live demo of DailyBlog: [Live Demo URL](https://blog-website-seven-weld.vercel.app/)
 
 ## Features
 
@@ -44,7 +44,7 @@ Check out the live demo of Blogify: [Live Demo URL](https://blog-website-seven-w
 
 ## Usage
 
-To use Blogify, follow these steps:
+To use DailyBlog, follow these steps:
 
 1. Visit the live demo link: [Live Demo URL]()
 2. Explore the blog posts and functionalities
@@ -52,7 +52,7 @@ To use Blogify, follow these steps:
 
 ## What I Learned
 
-During the development of Blogify, I gained insights into the following:
+During the development of DailyBlog, I gained insights into the following:
 
 - Integrating Firebase with React for data storage
 - Implementing user authentication for admin functionalities
@@ -60,4 +60,4 @@ During the development of Blogify, I gained insights into the following:
 
 ## Contributing
 
-Contributions to Blogify are welcome! If you have bug reports, feature suggestions, or want to submit pull requests, please refer to the [GitHub Repository](https://github.com/aruntutter/blog-website-with-react-firebase-and-vite) for more details.
+Contributions to DailyBlog are welcome! If you have bug reports, feature suggestions, or want to submit pull requests, please refer to the [GitHub Repository](https://github.com/aruntutter/blog-website-with-react-firebase-and-vite) for more details.
