@@ -27,7 +27,7 @@ DailyBlog is a blog website built using React, Tailwind CSS, and Firebase. It pr
 
 ## Demo
 
-Check out the live demo of DailyBlog: [Live Demo URL](https://blog-website-seven-weld.vercel.app/)
+Check out the live demo of DailyBlog: [Here](https://blog-website-seven-weld.vercel.app/)
 
 ## Features
 
